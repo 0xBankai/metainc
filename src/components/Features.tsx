@@ -4,22 +4,25 @@ import { Shield, Zap, Users } from "lucide-react";
 export default function Features() {
 	const features = [
 		{
-			icon: <Users className="w-12 h-12 text-purple-400" />,
+			icon: <img src="/Dex.png" alt="Dex Screener" className="w-12 h-12" />,
 			title: "Dex Screener",
 			description:
 				"Catch the latest Meta Coin trends on Dex Screener! Hit the rockets and stay on top of our performance!",
+			link: "https://www.dextools.io/",
 		},
 		{
-			icon: <Zap className="w-12 h-12 text-blue-400" />,
+			icon: <img src="/Telegram-1.png" alt="Telegram" className="w-12 h-12" />,
 			title: "Telegram",
 			description:
 				"Join our vibrant Telegram community! Be part of the conversation and connect with fellow Meta Coin enthusiasts.",
+			link: "https://t.me/your-telegram-link",
 		},
 		{
-			icon: <Shield className="w-12 h-12 text-green-400" />,
+			icon: <img src="/X.png" alt="Twitter" className="w-12 h-12" />,
 			title: "Twitter",
 			description:
 				"Follow us on Twitter for updates, insights, and more! Stay connected with everything Meta Coin!",
+			link: "https://twitter.com/your-twitter-handle",
 		},
 	];
 
@@ -42,14 +45,17 @@ export default function Features() {
 
 				<div className="grid md:grid-cols-3 gap-8">
 					{features.map((feature, index) => (
-						<div
+						<a
+							href={feature.link}
 							key={index}
-							className="p-8 rounded-2xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-purple-500/50 transition-all hover:-translate-y-1"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="p-8 rounded-2xl bg-gradient-to-b from-white/5 to-transparent border border-white/10 hover:border-purple-500/50 transition-all hover:-translate-y-1 block"
 						>
 							<div className="mb-6">{feature.icon}</div>
 							<h3 className="text-xl font-semibold mb-4">{feature.title}</h3>
 							<p className="text-gray-400">{feature.description}</p>
-						</div>
+						</a>
 					))}
 				</div>
 			</div>
