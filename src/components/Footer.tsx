@@ -52,68 +52,6 @@ export default function Footer() {
 							</li>
 						</ul>
 					</div>
-
-					<div>
-						<h4 className="font-semibold mb-4">Resources</h4>
-						<ul className="space-y-2">
-							<li>
-								<a
-									href="#"
-									className="text-gray-400 hover:text-white transition-colors"
-								>
-									Documentation
-								</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-gray-400 hover:text-white transition-colors"
-								>
-									Whitepaper
-								</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-gray-400 hover:text-white transition-colors"
-								>
-									Press Kit
-								</a>
-							</li>
-							<li>
-								<a
-									href="#"
-									className="text-gray-400 hover:text-white transition-colors"
-								>
-									FAQ
-								</a>
-							</li>
-						</ul>
-					</div>
-
-					<div>
-						<h4 className="font-semibold mb-4">Connect</h4>
-						<div className="flex space-x-4">
-							<a
-								href="#"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<Twitter size={20} />
-							</a>
-							<a
-								href="#"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<Github size={20} />
-							</a>
-							<a
-								href="#"
-								className="text-gray-400 hover:text-white transition-colors"
-							>
-								<Linkedin size={20} />
-							</a>
-						</div>
-					</div>
 				</div>
 
 				<div className="mt-8 pt-8 border-t border-white/10 text-center text-gray-400">
