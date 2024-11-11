@@ -1,5 +1,4 @@
 import React from "react";
-import { Shield, Zap, Users } from "lucide-react";
 import Telegram from "./Telegram-1.png";
 import X from "./X.png";
 import Dex from "./Dex.png";
@@ -9,22 +8,21 @@ export default function Features() {
 		{
 			icon: <img src={Dex} alt="Dex Screener" className="w-12 h-12" />,
 			title: "Dex Screener",
-			description:
-				"Catch the latest Meta Coin trends on Dex Screener! Hit the rockets and stay on top of our performance!",
+			description: "Hit the rockets and stay on top of our performance!",
 			link: "https://www.dextools.io/",
 		},
 		{
 			icon: <img src={Telegram} alt="Telegram" className="w-12 h-12" />,
 			title: "Telegram",
 			description:
-				"Join our vibrant Telegram community! Be part of the conversation and connect with fellow Meta Coin enthusiasts.",
-			link: "https://t.me/your-telegram-link",
+				"Join our vibrant Telegram community! Be part of the conversation and connect with fellow Meta on Sol enthusiasts.",
+			link: "https://t.me/MetaIncOnSol",
 		},
 		{
 			icon: <img src={X} alt="Twitter" className="w-12 h-12" />,
 			title: "Twitter",
 			description:
-				"Follow us on Twitter for updates, insights, and more! Stay connected with everything Meta Coin!",
+				"Join our Twitter community for updates, insights, and more! Stay up to date with Meta on Sol!",
 			link: "https://twitter.com/your-twitter-handle",
 		},
 	];
