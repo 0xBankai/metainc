@@ -4,21 +4,23 @@ import { Shield, Zap, Users } from "lucide-react";
 export default function Features() {
 	const features = [
 		{
-			icon: <img src="/Dex.png" alt="Dex Screener" className="w-12 h-12" />,
+			icon: <img src="/src/Dex.png" alt="Dex Screener" className="w-12 h-12" />,
 			title: "Dex Screener",
 			description:
 				"Catch the latest Meta Coin trends on Dex Screener! Hit the rockets and stay on top of our performance!",
 			link: "https://www.dextools.io/",
 		},
 		{
-			icon: <img src="/Telegram-1.png" alt="Telegram" className="w-12 h-12" />,
+			icon: (
+				<img src="/src/Telegram-1.png" alt="Telegram" className="w-12 h-12" />
+			),
 			title: "Telegram",
 			description:
 				"Join our vibrant Telegram community! Be part of the conversation and connect with fellow Meta Coin enthusiasts.",
 			link: "https://t.me/your-telegram-link",
 		},
 		{
-			icon: <img src="/X.png" alt="Twitter" className="w-12 h-12" />,
+			icon: <img src="/src/X.png" alt="Twitter" className="w-12 h-12" />,
 			title: "Twitter",
 			description:
 				"Follow us on Twitter for updates, insights, and more! Stay connected with everything Meta Coin!",
