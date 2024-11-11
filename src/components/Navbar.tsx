@@ -40,9 +40,6 @@ export default function Navbar() {
 							>
 								Risks
 							</a>
-							<button className="bg-gradient-to-r from-purple-500 to-blue-500 px-6 py-2 rounded-full font-medium hover:opacity-90 transition-opacity">
-								Get Started
-							</button>
 						</div>
 					</div>
 

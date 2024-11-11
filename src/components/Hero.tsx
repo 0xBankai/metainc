@@ -42,16 +42,6 @@ export default function Hero() {
 					resources to make Meta Coin accessible to all.
 				</p>
 
-				<div className="flex flex-col sm:flex-row gap-4 justify-center">
-					<button className="group bg-gradient-to-r from-purple-500 to-blue-500 px-8 py-4 rounded-full font-medium text-lg hover:opacity-90 transition-all flex items-center justify-center">
-						Get Started
-						<ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
-					</button>
-					<button className="px-8 py-4 rounded-full font-medium text-lg border border-white/20 hover:bg-white/10 transition-colors">
-						Learn More
-					</button>
-				</div>
-
 				{/* Scroll Indicator */}
 				<div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
 					<div className="w-8 h-12 rounded-full border-2 border-white/30 flex items-start justify-center p-2">
